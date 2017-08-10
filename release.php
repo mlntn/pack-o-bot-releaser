@@ -18,7 +18,7 @@ $target     = 'master';
 $name       = "pack-o-bot {$version}";
 $body       = $description;
 $draft      = false;
-$prerelease = true;
+$prerelease = false;
 
 $client = new GitHubClient;
 $client->setCredentials(getenv('GITHUB_USERNAME'), getenv('GITHUB_PASSWORD'));
