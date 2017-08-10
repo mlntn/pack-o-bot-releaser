@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tan-tan-kanarek/github-php-client": "^1.0",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
