@@ -11,7 +11,7 @@ if ($argc !== 3) {
 list($file, $version, $description) = $argv;
 
 $owner = 'mlntn';
-$repo  = 'pack-o-bot-test';
+$repo  = 'pack-o-bot';
 
 $tag_name   = $version;
 $target     = 'master';
